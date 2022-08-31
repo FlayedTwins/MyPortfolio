@@ -476,7 +476,7 @@ input[type="submit"] {
 }
 
 .bar .progress {
-	background: #333;
+	background: #26811b;
 }
 
 /* About text */
@@ -1783,10 +1783,10 @@ a.ribbon:hover {
 }
 
 .rm-close {
-	background: #333;
-	border-left: 1px dashed #888;
-	border-right: 1px dashed #888;
-	box-shadow: 3px 0 0 #333, -3px 0 0 #333;
+	background: #C25337;
+	border-left: 1px dashed #fff;
+	border-right: 1px dashed #fff;
+	box-shadow: 3px 0 0 #C25337, -3px 0 0 #C25337;
 	text-align: center;
 	width: 40px;
 	height: 50px;
@@ -1794,7 +1794,7 @@ a.ribbon:hover {
 
 .rm-close:after,
 .rm-close:before {
-	border-top: 15px solid #333;
+	border-top: 15px solid #C25337;
 	content: '';
 	height: 0;
 	position: absolute;
@@ -2140,16 +2140,16 @@ body {
 /* Button */
 .btn {
 	color: #fff;
-	background: #333;
+	background: #26811b;
 }
 
 .btn:hover {
 	color: #fff;
-	background: #d64b4b;
+	background: #34672D;
 }
 
 .btn:active {
-	background: #c14545;
+	background: #26811b;
 }
 
 
