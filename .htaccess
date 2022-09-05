@@ -1,3 +1,5 @@
+<IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteCond %{HTTP_HOST} !^flayedtwins.netlify.app$
-RewriteRule ^(.*)$ https://flayedtwins.netlify.app/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^flayedtwins.netlify.app$
+RewriteRule (.*) https://www.flayedtwins.netlify.app/$1 [R=301,L]
+</IfModule>
