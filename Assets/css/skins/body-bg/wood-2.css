@@ -1,2 +1,97 @@
+.cover h1 {
+	text-shadow:
+		#253e45 -1px 1px 0,
+		#253e45 -2px 2px 0,
+		#d45848 -3px 3px 0,
+		#d45848 -4px 4px 0;
+}
+
+.cover h2,
+.cover h3 {
+	text-shadow:
+		rgba(0, 0, 0, .4) 1px 1px 0,
+		rgba(0, 0, 0, .4) 2px 2px 0;
+}
+
+/* CLEAN STYLE */
+
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);
+
+/* HEADINGS */
+h2 {
+	font-family: "Arvo", serif;
+}
+
+/* RESUME */
+.testo .text {
+	background-color: transparent;
+	border: 1px solid #ddd;
+}
+
+
+
+.content h3 span {
+	display: inline-block;
+	position: relative;
+	padding: .2em 1em;
+	letter-spacing: 1px;
+	border: 1px dashed #26811b;
+	box-shadow: 0px 3px 6px 0px #b3b3b3;
+}
+
+.content h3 {
+	font-size: 1.0em;
+	font-weight: 800;
+}
+
+.content h2 {
+	font-weight: 800;
+}
+
+h4.about-text {
+	font-weight: 300;
+}
+
+.content h2,
+.content h3 {
+	position: relative;
+}
+
+.content h2:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	z-index: -1;
+}
+
+.content h2 span {
+	font-weight: 800;
+	padding: .2em .4em;
+	color: #fff;
+	background: #26811b;
+	border-radius: 4px;
+}
+
+h4.about-text {
+	font-weight: 300;
+}
+
+.label {
+	font-weight: 800;
+	padding: 0;
+	color: #26811b;
+	background: none;
+	border-bottom: 3px solid #26811b;
+}
+
 /* BODY BG */
-body { background-image:url(../../../images/bckg/body-bg/wood-2.jpg); background-attachment:fixed; background-repeat: repeat; }
+body {
+	background-image: url(../../../images/bckg/body-bg/wood-2.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+}
